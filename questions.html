@@ -1,25 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Questions</title>
-    <link href="css/que.css" rel="stylesheet">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-</head>
+    <link href="css/que.css" rel="stylesheet" />
 
-<body>
-    <nav class="navbar navbar-light navbar-expand-sm">
-        <a class="navt" href="#">SVU Online Exam Portal</a>
-        <form class="form-inline">
-            <button class="btn btn-danger my-2 my-sm-0" type="submit">End Test</button>
-        </form>
-    </nav>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="nav-bar row p-2">
+        <div
+          class="col-12 col-md-4 ml-md-5 bg-transparent logo d-flex align-content-center flex-wrap bg-danger">
+          SVU Online Exam Portal
+        </div>
+
+        <div
+          class="col bg-transparent offset-md-3 d-flex align-content-center flex-wrap bg-danger"
+        >
+          <div class="col time">Time: 2:47:59 / 3:00:00</div>
+
+          <div
+            class="col bg-transparent offset-md-1 d-flex align-content-center flex-wrap"
+          >
+            <span
+              class="iconify icon mr-3"
+              data-icon="carbon:calculator"
+              data-inline="false"
+            ></span>
+            <span
+              class="iconify icon"
+              data-icon="la:info-circle-solid"
+              data-inline="false"
+            ></span>
+            <form action="" class="bg-transparent" method="post">
+              <button class="btn btn-end-test ml-4" type="submit">
+                End Test
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="row exam-content mt-md-5 ">
+        <!-- left side  -->
+        <div class="col-12 col-md-8">
+          <!-- section  -->
+          <div class="row ml-md-5">
+            <div class="col-12">
+              <h5 class="mb-1">Section:</h5>
+              <p class=" section-text pt-2 pb-2 pl-3 pr-2 ">Multiple Choice Questions ( Operating System )</p>
+
+            </div>
+          </div>
+          <!-- question section  -->
+
+          <div class="col ml-md-5 mt-md-3 ">
+            <h5 class="mb-1">Question - 8</h5>
+            <div class="question-section pt-2 pb-2 pl-3 pr-2">
+            <p class="bg-transparent" id="question">
+              When several processes access the same data concurrently and the
+              outcome of the execution depends on the particular order in which
+              the access takes place, is called?
+            </p>
+            <div class="form-check bg-transparent">
+              <input
+                class="form-check-input "
+                type="radio"
+                name="options"
+                id="option1"
+                value="option1"
+              />
+              <label class="form-check-label bg-transparent" for="option1">
+                Dynamic condition
+              </label>
+            </div>
+            <div class="form-check bg-transparent">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="options"
+                id="exampleRadios2"
+                value="option2"
+              />
+              <label class="form-check-label bg-transparent" for="option2">
+                Race Condition
+              </label>
+            </div>
+            <div class="form-check bg-transparent">
+              <input
+                class="form-check-input bg-transparent"
+                type="radio"
+                name="options"
+                id="Essential condition"
+                value="option3"
+              />
+              <label class="form-check-label bg-transparent" for="option3">
+                Essential condition
+              </label>
+            </div>
+            <div class="form-check bg-transparent">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="options"
+                id="Essential condition"
+                value="option4"
+              />
+              <label class="form-check-label bg-transparent" for="option14">
+                Critical condition
+              </label>
+            </div>
+          </div>
+
+          <!-- buttons  -->
+          <div class="col">
+            <button class="btn btn-primary mt-4 mr-4" type="submit">Clear Response</button>
+            <button class="btn btn-warning mt-4" type="submit"> Mark for review and next</button>
+            <button class="btn btn-success float-md-right  mt-4 mr-4" type="submit">Save and Next</button>
+          </div>
+
+        </div>
+
+
+        </div>
+        <!-- right side  -->
+        <div class="col-12 col-md-4 pr-5 right-content">
+          <!-- profile  -->
+          <div class="col profile-section">
+            <div class="col bg-transparent d-flex justify-content-center">
+              <img src="./assets/Profile Pic.png" alt="" srcset="" />
+            </div>
+              <div class="info text-center  ">
+                <p><b>Name:</b> Rajesh Kumar</p>
+                <p><b>Age:</b> 19</p>
+                <p><b>Gender:</b> Male</p>
+                <p><b>Roll No:</b> 24100652134</p>
+              </div>
+            </div>
+
+            <!-- color divs  -->
+            <div class="col-12 color-divs pt-2 pb-2">
+              <div class="bg-success" id="div01"></div>
+              <div class="bg-success" id="div02"></div>
+              <div class="bg-success" id="div03"></div>
+              <div class="bg-success" id="div04"></div>
+              <div class="bg-warning" id="div05"></div>
+              <div class="bg-success" id="div06"></div>
+              <div class="bg-success" id="div07"></div>
+              <div class="bg-success" id="div08"></div>
+              <div class="bg-primary" id="div09"></div>
+              <div class="" id="div010"></div>
+              <div class="" id="div11"></div>
+              <div class="" id="div12"></div>
+              <div class="" id="div13"></div>
+              <div class="" id="div14"></div>
+              <div class="" id="div15"></div>
+              <div class="" id="div16"></div>
+              <div class="" id="div17"></div>
+              <div class="" id="div18"></div>
+              <div class="" id="div19"></div>
+              <div class="" id="div20"></div>
+              <div class="" id="div21"></div>
+              <div class="" id="div22"></div>
+              <div class="" id="div23"></div>
+              <div class="" id="div24"></div>
+              <div class="" id="div25"></div>
+            </div>
+
+
+            <!-- total question, marked, attended -->
+            <p class="total" id="total"> Total Questions: 120</p>
+            <p class="markedq" id="markedq">Questions attempted: 7</p>
+            <p class="attended">Marked for review: 1</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-</body>
-
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  </body>
 </html>

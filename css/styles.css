@@ -1,78 +1,77 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400,900;1,500&display=swap");
-
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "Roboto", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
-
 
 .bg {
-    background: #ffd7d7;
-    height: 100vh;
+  background: #ffd7d7;
+  height: 100vh;
 }
 
-.hero-title{
-    /* font-family: "Roboto", sans-serif; */
-    font-style: normal;
-    font-weight: 900;
-    font-size: 50px;
-    color: #353535;
+.hero-title {
+  /* font-family: "Roboto", sans-serif; */
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  color: #353535;
 }
 
-.hero-content{
-    /* font-family: "Roboto", sans-serif; */
-    font-style: normal;
-    font-weight: 200;
-    font-size: 28px;
-    color: #353535;
+.hero-content {
+  /* font-family: "Roboto", sans-serif; */
+  font-style: normal;
+  font-weight: 200;
+  font-size: 28px;
+  color: #353535;
 }
 
-.hero-info{
-    /* font-family: "Roboto", sans-serif; */
-    font-style: normal;
-    font-weight: 200;
-    font-size: 15px;
-    color: #353535;
+.hero-info {
+  /* font-family: "Roboto", sans-serif; */
+  font-style: normal;
+  font-weight: 200;
+  font-size: 15px;
+  color: #353535;
 }
 
-.login-card{
-    background: linear-gradient(180.24deg, #FFB794 6.42%, #FFADAF 94.35%);
-    border-radius: 10px;
-    margin-bottom: 30px;
+.login-card {
+  background: linear-gradient(180.24deg, #FFB794 6.42%, #FFADAF 94.35%);
+  border-radius: 10px;
+  margin-bottom: 30px;
 }
 
-.login{
-    font-style: normal;
-    font-weight: 900;
-    color: rgba(53, 53, 53, 0.8);
-    text-align: center;
+.login {
+  font-style: normal;
+  font-weight: 900;
+  color: rgba(53, 53, 53, 0.8);
+  text-align: center;
 }
 
-.avatar{
-    width: 100px;
+.avatar {
+  width: 100px;
 }
 
-.input-field{
-    border-radius: 100px;
-    border: none;
-    padding: 10px;
-    margin-top: 20px;
-    color: #353535;
-    font-weight: 700;
+.input-field {
+  border-radius: 100px;
+  border: none;
+  padding: 10px;
+  margin-top: 20px;
+  color: #353535;
+  font-weight: 700;
 }
 
-.input-field:focus{
-    outline: none;
+.input-field:focus {
+  outline: none;
 }
 
-::-webkit-input-placeholder{
-    opacity: .3;
+::-webkit-input-placeholder {
+  opacity: .3;
 }
 
-.signIn-btn{
-    margin-top: 50px;
-    margin-bottom: 80px;
-    background-color: #29D281;
-    color: azure;
+.signIn-btn {
+  margin-top: 50px;
+  margin-bottom: 80px;
+  background-color: #29D281;
+  color: azure;
 }
+/*# sourceMappingURL=styles.css.map */
